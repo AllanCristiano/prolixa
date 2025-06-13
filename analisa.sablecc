@@ -10,7 +10,7 @@ Helpers
 
 Tokens
     this_is_program = 'This is program' ;
-    identifier = capital_letter | underline  (letter)* ;
+    identifier = capital_letter (letter | underline)* ;
     that_would_be_all = 'That would be all.' ;
 
     
